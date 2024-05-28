@@ -1,0 +1,15 @@
+# Automatically normalize line endings
+* text=auto
+
+# Force LF for shell scripts and text files
+*.sh text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.ipynb text eol=lf
+
+# Handle binary files
+*.png binary
+*.jpg binary
+*.gif binary
+*.pdf binary
